@@ -14,6 +14,7 @@ body{
 .hero-area{
     display: flex;
     background-color: #f7f7f7;
+    width: 1920px;
     padding: 170px 150px 170px 150px;
 }
 
@@ -34,10 +35,94 @@ body{
 .hero-l h3{
     font-size: 32px;
     letter-spacing: 1.9px;
+    margin-bottom: 75px;
+}
+a:link{
+    color: #4b4b4b;
 }
 .line-1{
     margin-bottom: 17.5px;
 }
 .line-2{
     margin-bottom: 19.5px;
+}
+
+/* .hero-r
+--------------------------------------- */
+
+
+/* .main01
+--------------------------------------- */
+.main01{
+    margin-top: 307px;
+    margin-left: 284.5px;
+    margin-bottom: 12px;
+}
+.main01 h4{
+    font-size: 32px;
+}
+
+/* .main02
+--------------------------------------- */
+.main02{
+    margin-left: 284.5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.main02 div{
+    width: 297px;
+    height: 297px;
+}
+.main02 div:nth-of-type(1){
+    background: url(../img/ryoka01.jpg) no-repeat center center;
+    background-size: cover;
+    margin-bottom: 12px;
+}
+.main02 div:nth-of-type(2){
+    background: url(../img/ryoka02.jpg) no-repeat center center;
+    background-size: cover;
+    margin-bottom: 12px;
+}
+.main02 div:nth-of-type(3){
+    background: url(../img/ryoka03.jpg) no-repeat center center;
+    background-size: cover;
+    margin-bottom: 12px;
+}
+.main02 div:nth-of-type(4){
+    background: url(../img/ryoka04.jpg) no-repeat center center;
+    background-size: cover;
+    margin-bottom: 74px;
+}
+.main02 div:nth-of-type(5){
+    background: url(../img/ryoka05.jpg) no-repeat center center;
+    background-size: cover;
+    margin-bottom: 74px;
+}
+.main02 div:nth-of-type(6){
+    background: url(../img/box.png) no-repeat center center;
+    background-size: cover;
+    margin-bottom: 74px;
+    position: relative;
+}
+.main02 div:nth-of-type(6) h5{
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: bold;
+    position: absolute;
+    top: 129px;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+/* .main03
+--------------------------------------- */
+.main03{
+    margin-left: 284.5px;
+    display: flex;
+    justify-content: space-between;
+}
+.main03 h6{
+    font-size: 23px;
 }
