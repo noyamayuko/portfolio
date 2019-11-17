@@ -126,3 +126,57 @@ a:link{
 .main03 h6{
     font-size: 23px;
 }
+
+/* .main04
+--------------------------------------- */
+.main04{
+    margin-left: 284.5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.main04 div{
+    width: 297px;
+    height: 297px;
+}
+.main04 div:nth-of-type(1){
+    background: url(../img/mayuko01.jpg) no-repeat center center;
+    background-size: cover;
+    margin-bottom: 12px;
+}
+.main04 div:nth-of-type(2){
+    background: url(../img/mayuko02.jpg) no-repeat center center;
+    background-size: cover;
+    margin-bottom: 12px;
+}
+.main04 div:nth-of-type(3){
+    background: url(../img/mayuko03.jpg) no-repeat center center;
+    background-size: cover;
+    margin-bottom: 12px;
+}
+.main04 div:nth-of-type(4){
+    background: url(../img/mayuko04.jpg) no-repeat center center;
+    background-size: cover;
+    margin-bottom: 74px;
+}
+.main04 div:nth-of-type(5){
+    background: url(../img/mayuko05.jpg) no-repeat center center;
+    background-size: cover;
+    margin-bottom: 74px;
+}
+.main04 div:nth-of-type(6){
+    background: url(../img/box.png) no-repeat center center;
+    background-size: cover;
+    margin-bottom: 74px;
+    position: relative;
+}
+.main04 div:nth-of-type(6) h5{
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: bold;
+    position: absolute;
+    top: 129px;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
