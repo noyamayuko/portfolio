@@ -1,1 +1,43 @@
 @charset "UTF-8";
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+body{
+    color: #4b4b4b;
+    font-family: Helvetica, sans-serif;
+}
+
+/* .hero-area
+--------------------------------------- */
+.hero-area{
+    display: flex;
+    background-color: #f7f7f7;
+    padding: 170px 150px 170px 150px;
+}
+
+/* .hero-l
+--------------------------------------- */
+.hero-l h1{
+    font-size: 49px;
+    font-weight: bold;
+    letter-spacing: 2.45px;
+    margin-bottom: 8px;
+}
+.hero-l h2{
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 6.4px;
+    margin-bottom: 27.5px;
+}
+.hero-l h3{
+    font-size: 32px;
+    letter-spacing: 1.9px;
+}
+.line-1{
+    margin-bottom: 17.5px;
+}
+.line-2{
+    margin-bottom: 19.5px;
+}
