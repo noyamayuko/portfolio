@@ -180,3 +180,57 @@ a:link{
     left: 0;
     text-align: center;
 }
+
+/* .main05
+--------------------------------------- */
+.main05{
+    margin-left: 284.5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.main05 div{
+    width: 297px;
+    height: 297px;
+}
+.main05 div:nth-of-type(1){
+    background: url(../img/kiyomi01.jpg) no-repeat center center;
+    background-size: cover;
+    margin-bottom: 12px;
+}
+.main05 div:nth-of-type(2){
+    background: url(../img/kiyomi02.jpg) no-repeat center center;
+    background-size: cover;
+    margin-bottom: 12px;
+}
+.main05 div:nth-of-type(3){
+    background: url(../img/kiyomi03.jpg) no-repeat center center;
+    background-size: cover;
+    margin-bottom: 12px;
+}
+.main05 div:nth-of-type(4){
+    background: url(../img/kiyomi04.jpg) no-repeat center center;
+    background-size: cover;
+    margin-bottom: 74px;
+}
+.main05 div:nth-of-type(5){
+    background: url(../img/kiyomi05.jpg) no-repeat center center;
+    background-size: cover;
+    margin-bottom: 74px;
+}
+.main05 div:nth-of-type(6){
+    background: url(../img/box.png) no-repeat center center;
+    background-size: cover;
+    margin-bottom: 74px;
+    position: relative;
+}
+.main05 div:nth-of-type(6) h5{
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: bold;
+    position: absolute;
+    top: 129px;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
