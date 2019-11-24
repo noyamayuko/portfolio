@@ -7,38 +7,29 @@
 body{
     color: #4b4b4b;
     font-family: Helvetica, sans-serif;
-}
-
-/* .hero-area
---------------------------------------- */
-.hero-area{
-    display: flex;
+    width: 1620px;
+    padding: 150px 150px 150px 150px;
     background-color: #f7f7f7;
-    width: 1920px;
-    padding: 170px 150px 170px 150px;
+    display: flex;
 }
 
-/* .hero-l
+/* .header
 --------------------------------------- */
-.hero-l h1{
+header{
+    width: 150px;
+    position: fixed;
+}
+.main-ttl h1{
     font-size: 49px;
     font-weight: bold;
     letter-spacing: 2.45px;
     margin-bottom: 8px;
 }
-.hero-l h2{
+.main-ttl h2{
     font-size: 32px;
     font-weight: bold;
     letter-spacing: 6.4px;
     margin-bottom: 27.5px;
-}
-.hero-l h3{
-    font-size: 32px;
-    letter-spacing: 1.9px;
-    margin-bottom: 75px;
-}
-a:link{
-    color: #4b4b4b;
 }
 .line-1{
     margin-bottom: 17.5px;
@@ -47,244 +38,172 @@ a:link{
     margin-bottom: 19.5px;
 }
 
-/* .hero-r
+/* .nav
 --------------------------------------- */
+nav h3{
+    font-size: 32px;
+    letter-spacing: 1.9px;
+    margin-bottom: 75px;
+}
+a:link{
+    color: #4b4b4b;
+}
+a:visited{
+    color: #4b4b4b;
+}
 
-
-
-/* .main01
+/* .main
 --------------------------------------- */
-.main01{
-    margin-left: 284.5px;
+main{
+    width: 1180px;
+    margin-left: 290px;
+}
+
+/* .container01-04
+--------------------------------------- */
+.member-ttl{
     margin-bottom: 12px;
 }
-.main01 h4{
+.member-ttl h4{
     font-size: 32px;
 }
-
-/* .main02
---------------------------------------- */
-.main02{
-    margin-left: 284.5px;
+.photo-area{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.main02 div{
+.photo-area div{
     width: 297px;
     height: 297px;
 }
-.main02 div:nth-of-type(1){
+.photo-area div:nth-of-type(6){
+    background: url(../img/box.png) no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+.photo-area div:nth-of-type(6) h5{
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: bold;
+    position: absolute;
+    top: 129px;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+/* .container01
+--------------------------------------- */
+/* .container01{
+    margin-top: 150px;
+} */
+.container01 .photo-area div:nth-of-type(1){
     background: url(../img/ryoka01.jpg) no-repeat center center;
     background-size: cover;
     margin-bottom: 12px;
 }
-.main02 div:nth-of-type(2){
+.container01 .photo-area div:nth-of-type(2){
     background: url(../img/ryoka02.jpg) no-repeat center center;
     background-size: cover;
     margin-bottom: 12px;
 }
-.main02 div:nth-of-type(3){
+.container01 .photo-area div:nth-of-type(3){
     background: url(../img/ryoka03.jpg) no-repeat center center;
     background-size: cover;
     margin-bottom: 12px;
 }
-.main02 div:nth-of-type(4){
+.container01 .photo-area div:nth-of-type(4){
     background: url(../img/ryoka04.jpg) no-repeat center center;
     background-size: cover;
-    margin-bottom: 74px;
 }
-.main02 div:nth-of-type(5){
+.container01 .photo-area div:nth-of-type(5){
     background: url(../img/ryoka05.jpg) no-repeat center center;
     background-size: cover;
-    margin-bottom: 74px;
-}
-.main02 div:nth-of-type(6){
-    background: url(../img/box.png) no-repeat center center;
-    background-size: cover;
-    margin-bottom: 74px;
-    position: relative;
-}
-.main02 div:nth-of-type(6) h5{
-    color: #ffffff;
-    font-size: 32px;
-    font-weight: bold;
-    position: absolute;
-    top: 129px;
-    right: 0;
-    left: 0;
-    text-align: center;
 }
 
-/* .main03
+/* .container02
 --------------------------------------- */
-.main03{
-    margin-left: 284.5px;
-    display: flex;
-    justify-content: space-between;
+.container02{
+    margin-top: 150px;
 }
-.main03 h6{
-    font-size: 23px;
-}
-
-/* .main04
---------------------------------------- */
-.main04{
-    margin-left: 284.5px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.main04 div{
-    width: 297px;
-    height: 297px;
-}
-.main04 div:nth-of-type(1){
+.container02 .photo-area div:nth-of-type(1){
     background: url(../img/mayuko01.jpg) no-repeat center center;
     background-size: cover;
     margin-bottom: 12px;
 }
-.main04 div:nth-of-type(2){
+.container02 .photo-area div:nth-of-type(2){
     background: url(../img/mayuko02.jpg) no-repeat center center;
     background-size: cover;
     margin-bottom: 12px;
 }
-.main04 div:nth-of-type(3){
+.container02 .photo-area div:nth-of-type(3){
     background: url(../img/mayuko03.jpg) no-repeat center center;
     background-size: cover;
     margin-bottom: 12px;
 }
-.main04 div:nth-of-type(4){
+.container02 .photo-area div:nth-of-type(4){
     background: url(../img/mayuko04.jpg) no-repeat center center;
     background-size: cover;
-    margin-bottom: 74px;
 }
-.main04 div:nth-of-type(5){
+.container02 .photo-area div:nth-of-type(5){
     background: url(../img/mayuko05.jpg) no-repeat center center;
     background-size: cover;
-    margin-bottom: 74px;
-}
-.main04 div:nth-of-type(6){
-    background: url(../img/box.png) no-repeat center center;
-    background-size: cover;
-    margin-bottom: 74px;
-    position: relative;
-}
-.main04 div:nth-of-type(6) h5{
-    color: #ffffff;
-    font-size: 32px;
-    font-weight: bold;
-    position: absolute;
-    top: 129px;
-    right: 0;
-    left: 0;
-    text-align: center;
 }
 
-/* .main05
+/* .container03
 --------------------------------------- */
-.main05{
-    margin-left: 284.5px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.container03{
+    margin-top: 150px;
 }
-.main05 div{
-    width: 297px;
-    height: 297px;
-}
-.main05 div:nth-of-type(1){
+.container03 .photo-area div:nth-of-type(1){
     background: url(../img/kiyomi01.jpg) no-repeat center center;
     background-size: cover;
     margin-bottom: 12px;
 }
-.main05 div:nth-of-type(2){
+.container03 .photo-area div:nth-of-type(2){
     background: url(../img/kiyomi02.jpg) no-repeat center center;
     background-size: cover;
     margin-bottom: 12px;
 }
-.main05 div:nth-of-type(3){
+.container03 .photo-area div:nth-of-type(3){
     background: url(../img/kiyomi03.jpg) no-repeat center center;
     background-size: cover;
     margin-bottom: 12px;
 }
-.main05 div:nth-of-type(4){
+.container03 .photo-area div:nth-of-type(4){
     background: url(../img/kiyomi04.jpg) no-repeat center center;
     background-size: cover;
-    margin-bottom: 74px;
 }
-.main05 div:nth-of-type(5){
+.container03 .photo-area div:nth-of-type(5){
     background: url(../img/kiyomi05.jpg) no-repeat center center;
     background-size: cover;
-    margin-bottom: 74px;
-}
-.main05 div:nth-of-type(6){
-    background: url(../img/box.png) no-repeat center center;
-    background-size: cover;
-    margin-bottom: 74px;
-    position: relative;
-}
-.main05 div:nth-of-type(6) h5{
-    color: #ffffff;
-    font-size: 32px;
-    font-weight: bold;
-    position: absolute;
-    top: 129px;
-    right: 0;
-    left: 0;
-    text-align: center;
 }
 
-/* .main06
+/* .container04
 --------------------------------------- */
-.main06{
-    margin-left: 284.5px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.container04{
+    margin-top: 150px;
 }
-.main06 div{
-    width: 297px;
-    height: 297px;
-}
-.main06 div:nth-of-type(1){
+.container04 .photo-area div:nth-of-type(1){
     background: url(../img/kiyomi01.jpg) no-repeat center center;
     background-size: cover;
     margin-bottom: 12px;
 }
-.main06 div:nth-of-type(2){
+.container04 .photo-area div:nth-of-type(2){
     background: url(../img/kiyomi02.jpg) no-repeat center center;
     background-size: cover;
     margin-bottom: 12px;
 }
-.main06 div:nth-of-type(3){
+.container04 .photo-area div:nth-of-type(3){
     background: url(../img/kiyomi03.jpg) no-repeat center center;
     background-size: cover;
     margin-bottom: 12px;
 }
-.main06 div:nth-of-type(4){
+.container04 .photo-area div:nth-of-type(4){
     background: url(../img/kiyomi04.jpg) no-repeat center center;
     background-size: cover;
-    margin-bottom: 74px;
 }
-.main06 div:nth-of-type(5){
+.container04 .photo-area div:nth-of-type(5){
     background: url(../img/kiyomi05.jpg) no-repeat center center;
     background-size: cover;
-    margin-bottom: 74px;
-}
-.main06 div:nth-of-type(6){
-    background: url(../img/box.png) no-repeat center center;
-    background-size: cover;
-    margin-bottom: 74px;
-    position: relative;
-}
-.main06 div:nth-of-type(6) h5{
-    color: #ffffff;
-    font-size: 32px;
-    font-weight: bold;
-    position: absolute;
-    top: 129px;
-    right: 0;
-    left: 0;
-    text-align: center;
 }
