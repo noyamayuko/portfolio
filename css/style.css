@@ -81,6 +81,7 @@ main{
     background: url(../img/box.png) no-repeat center center;
     background-size: cover;
     opacity: 1;
+    transition-duration: 0.5s;
     position: relative;
 }
 .photo-area div:nth-of-type(6) h5{
@@ -95,6 +96,7 @@ main{
 }
 .photo-area div:nth-of-type(6):hover{
     opacity: 0.4;
+    transition-duration: 0.5s;
 }
 
 /* トップページ　個人 */
@@ -114,7 +116,7 @@ main{
     margin-bottom: 12px;
 }
 .container01 .photo-area div:nth-of-type(3){
-    background: url(../img/ryoka03.png) no-repeat center center;
+    background: url(../img/ryoka03.jpg) no-repeat center center;
     background-size: cover;
     margin-bottom: 12px;
 }
@@ -123,7 +125,7 @@ main{
     background-size: cover;
 }
 .container01 .photo-area div:nth-of-type(5){
-    background: url(../img/ryoka05.png) no-repeat center center;
+    background: url(../img/ryoka05.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -237,6 +239,12 @@ main{
 .ryoka{
     color: #9D1004;
 }
+.kiyomi{
+    color: #551DEDF4;
+}
+.yumi{
+    color: #D96A0A;
+}
 
 /* .sub-area
 --------------------------------------- */
@@ -260,6 +268,15 @@ main{
     height: 227px;
     margin-bottom: 33px;
 }
+.photo-block img{
+    filter: grayscale(100%);
+    transition-duration: 0.5s;
+}
+.photo-block img:hover{
+    filter: grayscale(0%);
+    transition-duration: 0.5s;
+
+}
 
 /* .profile-block
 --------------------------------------- */
@@ -269,7 +286,7 @@ main{
 }
 
 .profile-block h6{
-    font: Bold 38px/46px Helvetica;
+    font: Bold 32px/46px Helvetica;
     text-align: left;
 }
 .profile-block .ttl{
@@ -279,7 +296,7 @@ main{
     margin-bottom: 5px;
 }
 .profile-block p{
-    font-size: 32px;
+    font-size: 20px;
     text-align: left;
     margin-bottom: 20px;
 }
